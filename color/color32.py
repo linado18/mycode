@@ -35,6 +35,9 @@ def main():
     # print 'blue string' in blue
     print(crayons.blue('blue string', bold=True))
 
+    # print 'Lina Do name' in Red
+    print(crayons.red('Lina Do', bold=True))
+
 # this condition is only true if our script is run directly
 # it is NOT true if our code is imported into another script
 if __name__ == "__main__":
